@@ -1,0 +1,110 @@
+body {
+    background-color: darkred;
+    background-image: url(../img/30-consejos-Fitness-1.jpg);
+    color: azure;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#form {
+    background-color: black;
+    opacity: 0.6;
+}
+
+.texto_principal {
+    color: rgb(253, 241, 241);
+    text-shadow: 5px 5px 5px black;
+    font-size: 100px;
+}
+
+.h2 {
+    color: black;
+    margin-left: 10%;
+}
+
+
+
+#texto_en_movimiento {
+    text-shadow: 5px 5px 5px rgb(251, 249, 249);
+    font-weight: 800;
+    display: flex;
+    width: 750px;
+    height: 45px;
+    color: black;
+    font-size: 40px;
+    line-height: 40px;
+
+
+    position: relative;
+    top: 150px;
+    right: 300px;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+    overflow: hidden;
+
+
+}
+
+ul {
+    color: rgb(245, 249, 251);
+    text-shadow: 2px 2px 2px black;
+
+
+}
+
+ul {
+
+    list-style: none;
+    padding-left: 50px;
+    animation: cambiar 7s infinite;
+
+}
+
+ul,
+p {
+    margin: 0;
+}
+
+@keyframes cambiar {
+
+    0% {
+        margin-top: 0;
+    }
+
+    20% {
+        margin-top: 0;
+    }
+
+    25% {
+        margin-top: -40px;
+    }
+
+    50% {
+        margin-top: -40px;
+    }
+
+    55% {
+        margin-top: -80px;
+    }
+
+    80% {
+        margin-top: -80px;
+    }
+
+    85% {
+        margin-top: -40px;
+    }
+
+    95% {
+        margin-top: -40px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+
+
+}
